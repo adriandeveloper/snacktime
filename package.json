@@ -1,0 +1,35 @@
+{
+  "name": "snacktime",
+  "version": "0.0.1",
+  "description": "A Simple CRUD App",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriandeveloper/snacktime.git"
+  },
+  "author": "Adrian Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriandeveloper/snacktime/issues"
+  },
+  "homepage": "https://github.com/adriandeveloper/snacktime#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "knex": "^0.12.9",
+    "locus": "^2.0.1",
+    "method-override": "^2.3.8",
+    "morgan": "^1.8.1",
+    "pg": "^6.1.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
+  }
+}

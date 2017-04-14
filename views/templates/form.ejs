@@ -1,0 +1,26 @@
+<form  class="ui form" action="snacks/<%=snack.id%>?_method=PATCH" method="post">
+  <div class="field">
+  <label for="name">Snack Name:</label>
+    <input type="text" name="snack[name]" value="<%=snack.name%>" id="name">
+  </div>
+
+  <div class="field">
+    <label for="image">Image:</label>
+    <input type="text" name="snack[img_url]" value="<%=snack.img_url%>" id="image">
+  </div>
+
+  <div class="field">
+    <label for="review">Review:</label>
+    <input type="text" name="snack[review_description]" value="<%=snack.review_description%>" id="review">
+  </div>
+
+  <p>current rating: <%=snack.rating%></p>
+  1 <input type="radio" name="snack[rating]" value="1" id="review">
+  2 <input type="radio" name="snack[rating]" value="2" id="review">
+  3 <input type="radio" name="snack[rating]" value="3" id="review">
+  4 <input type="radio" name="snack[rating]" value="4" id="review">
+  5 <input type="radio" name="snack[rating]" value="5" id="review">
+
+  <input type="submit" name="" value="Create new snack">
+
+</form>
